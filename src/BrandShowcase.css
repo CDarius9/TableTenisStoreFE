@@ -1,0 +1,75 @@
+.BrandShowcase {
+  text-align: center;
+  padding: 40px 0;
+  background: linear-gradient(to right, #f3f3f3, #acacac );
+  margin-top: 30px;
+  
+}
+
+.BrandShowcaseTitle {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.BrandGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.BrandItem {
+  text-align: center;
+}
+
+.BrandItem img {
+  max-width: 100%;
+  margin-bottom: 15px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.BrandItem p {
+  font-size: 20px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .BrandShowcase {
+    padding: 60px 0;
+    margin-top: 50px;
+  }
+
+  .BrandShowcaseTitle {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .BrandGrid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+
+  .BrandItem img {
+    height: 180px;
+    margin-bottom: 20px;
+  }
+
+  .BrandItem p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .BrandGrid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+  }
+
+  .BrandItem img {
+    height: 200px;
+  }
+}

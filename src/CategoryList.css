@@ -1,0 +1,127 @@
+.CategoryList {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 0;
+}
+
+.CategoryList h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.CategoryList h2::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100px;
+  height: 2px;
+  background-color: #007bff;
+}
+
+.CategoryList ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.CategoryList li {
+  margin-bottom: 10px;
+  
+}
+
+.CategoryList a {
+  display: block;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #555555;
+  text-decoration: none;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.CategoryList a:hover {
+  background-color: #0457b0;
+  color: #ffffff;
+  transform: translateX(5px);
+}
+
+.CategoryList a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: skewX(-30deg);
+  transition: left 0.3s ease;
+}
+
+.CategoryList a:hover::before {
+  left: 100%;
+}
+
+.CategoryList a::after {
+  content: '\2192';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease, right 0.3s ease;
+}
+
+.CategoryList a:hover::after {
+  opacity: 1;
+  right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .CategoryList {
+    padding: 30px;
+    margin-left: 49px;
+  }
+
+  .CategoryList h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .CategoryList h2::after {
+    width: 150px;
+    height: 3px;
+  }
+
+  .CategoryList li {
+    margin-bottom: 15px;
+  }
+
+  .CategoryList a {
+    padding: 12px 20px;
+    font-size: 18px;
+  }
+
+  .CategoryList a:hover {
+    transform: translateX(10px);
+  }
+
+  .CategoryList a::after {
+    right: 20px;
+  }
+
+  .CategoryList a:hover::after {
+    right: 15px;
+  }
+}

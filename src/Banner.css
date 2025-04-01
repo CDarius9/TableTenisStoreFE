@@ -1,0 +1,51 @@
+.Banner {
+  background: linear-gradient(to right, #9a9a9a, #585858 );
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 18px;
+}
+
+.Banner h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.slick-prev,
+.slick-next {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.Banner .slick-arrow {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .Banner h2 {
+    font-size: 36px;
+  }
+
+  .slick-prev,
+  .slick-next {
+    font-size: 30px;
+  }
+
+  .Banner .slick-arrow {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}

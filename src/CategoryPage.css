@@ -1,0 +1,101 @@
+.CategoryPage {
+  display: flex;
+  padding: 20px;
+}
+
+.CategoryPageContainer {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.CategoryPageSidebar {
+  width: 5%;
+  margin-right: 20px;
+}
+
+.CategoryPageContent {
+  width: 75%;
+}
+
+.CategoryPageSortFilterContainer {
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.CategoryPageSortFilter select,
+.CategoryPageBrandFilter select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.CategoryPageProductGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.CategoryPageProductItem {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.CategoryPageProductItem img {
+  height: 200px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.CategoryPageProductItem h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.CategoryPageProductItem p {
+  margin-bottom: 10px;
+}
+
+.CategoryPagePrice{
+  font-size: 19px;
+  font-weight: bold;
+
+}
+.CategoryPageProductSelect {
+  appearance: none;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 36px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  text-align: center;
+  width: 80%;
+}
+
+.CategoryPageProductSelect:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #333;
+}
+
+.CategoryPageProductItem button {
+  background-color: #002e60;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.CategoryPageProductItem button:hover {
+  background-color: #0022ff;
+}
