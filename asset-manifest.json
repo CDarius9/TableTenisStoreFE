@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/TableTenisStoreFE/static/css/main.bc45a743.css",
+    "main.js": "/TableTenisStoreFE/static/js/main.b0d75581.js",
+    "static/js/453.99dcf01f.chunk.js": "/TableTenisStoreFE/static/js/453.99dcf01f.chunk.js",
+    "static/media/a3.jpg": "/TableTenisStoreFE/static/media/a3.443d940d4a93b53063e4.jpg",
+    "static/media/b.jpg": "/TableTenisStoreFE/static/media/b.e13ca53a271517b64dbd.jpg",
+    "static/media/nittaku.png": "/TableTenisStoreFE/static/media/nittaku.d5f9db50a40a15e02625.png",
+    "static/media/2.png": "/TableTenisStoreFE/static/media/2.cec1646f48021e902c7c.png",
+    "static/media/donic.png": "/TableTenisStoreFE/static/media/donic.99339aa01597b6ec6f0c.png",
+    "static/media/xiom.jpg": "/TableTenisStoreFE/static/media/xiom.7cf2ab62d5171c6f6975.jpg",
+    "static/media/3.jpg": "/TableTenisStoreFE/static/media/3.9c33fc8858f2b888bd7e.jpg",
+    "static/media/1.jpg": "/TableTenisStoreFE/static/media/1.d1a37629c999c5f5c4f2.jpg",
+    "static/media/lemn.svg": "/TableTenisStoreFE/static/media/lemn.4f387ddc860082ab08536fd8cf5ff68e.svg",
+    "static/media/rubber.svg": "/TableTenisStoreFE/static/media/rubber.e3bbbb58f26aff296e349fd57906097c.svg",
+    "static/media/slick.svg": "/TableTenisStoreFE/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/TableTenisStoreFE/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/all.svg": "/TableTenisStoreFE/static/media/all.36000c49f11add686af7067b5abc6bff.svg",
+    "static/media/slick.ttf": "/TableTenisStoreFE/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/TableTenisStoreFE/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/masa.svg": "/TableTenisStoreFE/static/media/masa.4b0c142132c01ddbf21141457837025f.svg",
+    "static/media/paleta.svg": "/TableTenisStoreFE/static/media/paleta.47026ab7904ee0db29cb9bcd059e60a9.svg",
+    "index.html": "/TableTenisStoreFE/index.html",
+    "main.bc45a743.css.map": "/TableTenisStoreFE/static/css/main.bc45a743.css.map",
+    "main.b0d75581.js.map": "/TableTenisStoreFE/static/js/main.b0d75581.js.map",
+    "453.99dcf01f.chunk.js.map": "/TableTenisStoreFE/static/js/453.99dcf01f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc45a743.css",
+    "static/js/main.b0d75581.js"
+  ]
+}
